@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.phase2222222.HelloController">
+   <children>
+      <Label fx:id="usernamelbl" layoutX="111.0" layoutY="149.0" prefHeight="27.0" prefWidth="87.0" text="Username">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="passwordlbl" layoutX="111.0" layoutY="202.0" prefHeight="27.0" prefWidth="87.0" text="Password">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passwordpsdfld" layoutX="248.0" layoutY="203.0" />
+      <Label fx:id="welcomeText" alignment="CENTER" layoutX="14.0" layoutY="283.0" prefHeight="54.0" prefWidth="342.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="usernametxtfld" layoutX="249.0" layoutY="150.0" />
+      <Label fx:id="welcomeText1" alignment="CENTER" layoutX="120.0" layoutY="54.0" prefHeight="54.0" prefWidth="360.0" text="Welcome to Spotify">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginbutton" layoutX="374.0" layoutY="269.0" mnemonicParsing="false" onMouseClicked="#loginrequest" prefHeight="81.0" prefWidth="151.0" text="Login">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

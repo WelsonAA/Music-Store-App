@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="1056.0" prefWidth="1956.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.phase2222222.CustomerSearchItemsController">
+   <children>
+      <Label layoutX="429.0" layoutY="73.0" prefHeight="27.0" prefWidth="121.0" text="Search Word">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="searchtext" layoutX="591.0" layoutY="74.0" prefHeight="25.0" prefWidth="247.0" />
+      <Button fx:id="bymusicalrecord" layoutX="276.0" layoutY="143.0" mnemonicParsing="false" onMouseClicked="#searchmusicalrecord" text="Search by Musical Record">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bycategory" layoutX="609.0" layoutY="143.0" mnemonicParsing="false" onMouseClicked="#searchcategory" text="Search by Category">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="byartist" layoutX="858.0" layoutY="143.0" mnemonicParsing="false" onMouseClicked="#searchartist" text="Search by Artist">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="50.0" layoutY="250.0" prefHeight="27.0" prefWidth="168.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="236.0" layoutY="250.0" prefHeight="30.0" prefWidth="100.0" text="Duration">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="durations" layoutX="236.0" layoutY="308.0" prefHeight="465.0" prefWidth="100.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="366.0" layoutY="250.0" prefHeight="30.0" prefWidth="75.0" text="Price($)">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="prices" layoutX="366.0" layoutY="308.0" prefHeight="465.0" prefWidth="75.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="478.0" layoutY="250.0" prefHeight="30.0" prefWidth="109.0" text="Category">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="categories" layoutX="478.0" layoutY="308.0" prefHeight="465.0" prefWidth="109.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1322.0" layoutY="250.0" prefHeight="30.0" prefWidth="465.0" text="Description">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="descriptions" layoutX="1322.0" layoutY="308.0" prefHeight="465.0" prefWidth="452.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="617.0" layoutY="250.0" prefHeight="30.0" prefWidth="109.0" text="Artist">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="artists" layoutX="617.0" layoutY="308.0" prefHeight="465.0" prefWidth="195.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="820.0" layoutY="250.0" prefHeight="30.0" prefWidth="75.0" text="Stock">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="stocks" layoutX="820.0" layoutY="308.0" prefHeight="465.0" prefWidth="75.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="932.0" layoutY="250.0" prefHeight="30.0" prefWidth="149.0" text="No of sold items">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="solditems" layoutX="932.0" layoutY="308.0" prefHeight="465.0" prefWidth="149.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="returntocustomermenu" layoutX="314.0" layoutY="851.0" mnemonicParsing="false" onMouseClicked="#returntocustomermenu" prefHeight="87.0" prefWidth="286.0" text="Return to Customer Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="names" layoutX="50.0" layoutY="308.0" prefHeight="465.0" prefWidth="168.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="passing" layoutX="824.0" layoutY="866.0" text="Label" />
+      <Label layoutX="1094.0" layoutY="244.0" prefHeight="39.0" prefWidth="199.0" text="Release Date">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="dates" layoutX="1094.0" layoutY="308.0" prefHeight="465.0" prefWidth="149.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="exceptions" layoutX="944.0" layoutY="72.0" prefHeight="25.0" prefWidth="240.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

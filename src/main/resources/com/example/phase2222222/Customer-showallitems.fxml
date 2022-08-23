@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="994.0" prefWidth="1806.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.phase2222222.CustomerShowAllItemsController">
+   <children>
+      <Button fx:id="returntocustomermenubtn" layoutX="319.0" layoutY="722.0" mnemonicParsing="false" onMouseClicked="#backToCustomerMenu" text="Return to Customer Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="names" layoutX="48.0" layoutY="115.0" prefHeight="590.0" prefWidth="199.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="load" layoutX="721.0" layoutY="722.0" mnemonicParsing="false" onMouseClicked="#loading" prefHeight="39.0" prefWidth="144.0" text="Load">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label layoutX="48.0" layoutY="66.0" prefHeight="39.0" prefWidth="199.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="durations" layoutX="282.0" layoutY="115.0" prefHeight="590.0" prefWidth="127.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="282.0" layoutY="66.0" prefHeight="39.0" prefWidth="127.0" text="Duration">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="prices" layoutX="422.0" layoutY="115.0" prefHeight="590.0" prefWidth="127.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="422.0" layoutY="66.0" prefHeight="39.0" prefWidth="127.0" text="Price($)">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="categories" layoutX="550.0" layoutY="115.0" prefHeight="590.0" prefWidth="199.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="550.0" layoutY="66.0" prefHeight="39.0" prefWidth="199.0" text="Category">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="descriptions" layoutX="1157.0" layoutY="115.0" prefHeight="590.0" prefWidth="639.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="1157.0" layoutY="66.0" prefHeight="39.0" prefWidth="199.0" text="Description">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="artists" layoutX="749.0" layoutY="115.0" prefHeight="590.0" prefWidth="199.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="749.0" layoutY="66.0" prefHeight="39.0" prefWidth="199.0" text="Artist">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="passing" layoutX="973.0" layoutY="774.0" text="Label" />
+      <Label fx:id="dates" layoutX="928.0" layoutY="115.0" prefHeight="590.0" prefWidth="199.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="928.0" layoutY="66.0" prefHeight="39.0" prefWidth="199.0" text="Release Date">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

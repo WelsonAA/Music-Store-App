@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.phase2222222.AdminAfterLoginController">
+   <children>
+      <Button fx:id="addmusicalrecordbtn" layoutX="55.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#addmusicalrecord" prefHeight="80.0" prefWidth="212.0" text="Add Musical Record">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="deletemusicalrecordbtn" layoutX="347.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#deletemusicalrecord" prefHeight="80.0" prefWidth="212.0" text="Delete Musical Record">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="logoutbtn" layoutX="347.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#logOut" prefHeight="80.0" prefWidth="212.0" text="Log Out">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="deletecategorybtn" layoutX="347.0" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#deletecategory" prefHeight="80.0" prefWidth="212.0" text="Delete Category">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="addcategorybtn" layoutX="55.0" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#addcategory" prefHeight="80.0" prefWidth="212.0" text="Add Category">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="editadescriptionbtn" layoutX="55.0" layoutY="256.0" mnemonicParsing="false" onMouseClicked="#editdescription" prefHeight="80.0" prefWidth="212.0" text="Edit a Description">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

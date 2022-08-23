@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.phase2222222.CustomerAfterLoginController">
+   <children>
+      <Button fx:id="manageorderbtn" layoutX="61.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#manageOrder" prefHeight="80.0" prefWidth="200.0" text="Manage Order">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="searchitemsbtn" layoutX="318.0" layoutY="46.0" mnemonicParsing="false" onMouseClicked="#searchItem" prefHeight="80.0" prefWidth="200.0" text="Search Items">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="filteritemsbtn" layoutX="61.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#filterItems" prefHeight="80.0" prefWidth="200.0" text="Filter Items">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="showallitemsbtn" layoutX="318.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#showAllItems" prefHeight="80.0" prefWidth="200.0" text="Show all Items">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="logoutbtn" layoutX="200.0" layoutY="273.0" mnemonicParsing="false" onMouseClicked="#logOut" prefHeight="80.0" prefWidth="200.0" text="Log Out">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="pasing" layoutX="473.0" layoutY="304.0" text="Label" />
+   </children>
+</AnchorPane>
